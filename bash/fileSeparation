@@ -1,0 +1,6 @@
+string="hello.txt"
+first=${string#*.}
+second=${string%.*}
+customString="Custom"
+echo "$second$customString$first"
+echo "${string%.*}Custom${string#*.}"

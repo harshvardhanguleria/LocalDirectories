@@ -1,0 +1,13 @@
+father(Eddard).
+mother(Catelyn).
+child(Robb).
+child(Sansa).
+child(Arya).
+child(Bran).
+child(Rickon).
+child(Robb) :- father(Eddard), mother(Catelyn).
+child(Sansa) :- father(Eddard), mother(Catelyn).
+child(Arya) :- father(Eddard), mother(Catelyn).
+child(Brandon) :- father(Eddard), mother(Catelyn).
+child(Rickon) :- father(Eddard), mother(Catelyn).
+

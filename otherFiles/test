@@ -1,0 +1,4 @@
+char='o'
+string='Hello World Hi World'
+e=`grep -o $string $char | wc -l`
+echo "$e"

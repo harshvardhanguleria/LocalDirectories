@@ -1,0 +1,6 @@
+echo -e "\nEnter the string:"
+read str
+echo -e "\nEnter the charachter of whose occurence is to be found"
+read st
+cnt=$(grep -i -o "$st" <<<$str | wc -l )
+echo -e "\nThe occurence of $st in the given string is $cnt"

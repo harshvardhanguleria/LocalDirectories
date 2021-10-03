@@ -39,4 +39,3 @@ data
 
 maximum <- max(airquality$Ozone)
 maximum
-
